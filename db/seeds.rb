@@ -27,3 +27,4 @@ appointment3 = Appointment.create(doctor_id: doctor2.id, patient_id: patient3.id
 appointment4 = Appointment.create(doctor_id: doctor2.id, patient_id: patient4.id)
 appointment5 = Appointment.create(doctor_id: doctor3.id, patient_id: patient5.id)
 appointment6 = Appointment.create(doctor_id: doctor3.id, patient_id: patient6.id)
+appointment7 = Appointment.create(doctor_id: doctor1.id, patient_id: patient3.id)
