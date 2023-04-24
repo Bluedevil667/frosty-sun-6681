@@ -1,6 +1,6 @@
 <h1>Adult Patients</h1>
 <ul>
-  <% @adult_patients.each do |patient| %>
+  <% @patients.adult_patients_in_alphabetical_order.each do |patient| %>
     <li><%= patient.name %></li>
   <% end %>
 </ul>
